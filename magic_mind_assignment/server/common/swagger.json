@@ -1,0 +1,36 @@
+{
+	"swagger":"2.0",
+	"info":
+	{
+    "title" : "MagicMind Assignment",
+    "description" : "This assignment is made for magicmind all copy rights belongs to the author Aayush Anand",
+    "author": "Aayush Anand",
+       "version": "1.0.0",
+      "host": "http://127.0.0.1:3001/",
+      "basePath": "/v1",
+      "schemes": ["http","https"],
+      "consumes": ["application/json"],
+      "produces": ["application/json"],
+      "paths" :{
+        "/teacher/getallteachers":{
+          "get":{
+            "tags": ["Users"],
+            "summary": "Get all teacher",
+            "description" : "Create new User in database",
+            "produces" : ["application/json"],
+            "responses":{
+              "200":{
+                "description" : "Gotcha",
+                "schema": {
+                 "$ref" : "#definitions/SignupRsp"
+                }
+              }
+            }
+          }
+        
+}
+}
+	},
+	"apis": "['../api/v1/controllers/**/*.js']"
+
+}

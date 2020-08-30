@@ -1,0 +1,47 @@
+{
+  "name": "secure",
+  "version": "1.0.0",
+  "description": "This assignment is made for magicmind all copy rights belongs to the author ",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aayush Anand",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ws": "3.3.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "boom": "7.3.0",
+    "config": "1.31.0",
+    "cors": "^2.8.4",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "express": "^4.16.4",
+    "express-ipfilter": "^1.1.2",
+    "express-useragent": "^1.0.8",
+    "fs": "0.0.1-security",
+    "helmet": "^3.14.0",
+    "joi": "^13.7.0",
+    "jsonwebtoken": "^8.1.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.3.5",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "path": "0.12.7",
+    "request": "^2.87.0",
+    "save": "^2.4.0",
+    "swagger-ui-express": "^4.1.4",
+    "util": "^0.10.4"
+  }
+}

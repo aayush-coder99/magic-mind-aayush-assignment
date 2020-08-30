@@ -1,0 +1,17 @@
+{
+    "port": 3001,
+    "hostAddress": "http://127.0.0.1:3001/",
+    "databaseHost":"localhost",
+    "databasePort":"27017",
+    "databaseUser":"root",
+    "databasePassword":"magicmind",
+    "databaseName":"magicmind_test",
+    "jwtsecret": "ilovescotchscotchyscotchscotch",
+    "jwtOptions": {
+        "expiresIn": "1h"
+    },
+    "encryption": {
+        "algorithm": "aes-256-ctr",
+        "password": "node@crypto123#-encryption"
+    }
+}
